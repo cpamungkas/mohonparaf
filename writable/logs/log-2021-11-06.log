@@ -1,0 +1,11 @@
+CRITICAL - 2021-11-06 14:29:09 --> Invalid file: auth/templetes/index.php
+#0 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/templetes/...')
+#1 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templetes/...', Array, true)
+#2 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 D:\xampp\htdocs\ttdapp\app\Controllers\Home.php(9): view('auth/login')
+#4 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ttdapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}

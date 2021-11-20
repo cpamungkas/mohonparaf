@@ -1,0 +1,12 @@
+CRITICAL - 2021-11-05 01:45:19 --> Illegal string offset 'tipe'
+#0 D:\xampp\htdocs\ttdapp\app\Views\pages\contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/contact', Array, true)
+#4 D:\xampp\htdocs\ttdapp\app\Controllers\Pages.php(39): view('pages/contact', Array)
+#5 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pages->contact()
+#6 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ttdapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\ttdapp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
