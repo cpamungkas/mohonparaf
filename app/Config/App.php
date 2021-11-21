@@ -24,11 +24,7 @@ class App extends BaseConfig
      * @var string
      */
     #public $baseURL = 'http://localhost:8080/';
-<<<<<<< HEAD
-    public $baseURL = 'https://mohonparaf.herokuapp.com/';
-=======
-    public $baseURL ='';
->>>>>>> ee8e635486e6980d45478761b9136a8aa5a2e94f
+    public $baseURL = '';
 
     /**
      * --------------------------------------------------------------------------
